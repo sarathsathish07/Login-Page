@@ -1,0 +1,84 @@
+body {
+  font-family: "Raleway", sans-serif;
+  background: linear-gradient(90deg, #8d0273, #500e9c);
+  background-attachment: fixed;
+}
+.container {
+  background-color: rgba(0, 0, 0, 0.2);
+  background-attachment: fixed;
+  border-radius: 25px;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
+}
+.heading {
+  font-weight: 700;
+}
+
+.center-div {
+  padding-top: 10%;
+}
+.btn {
+  border-style: none;
+  background-color: #9b047f;
+  height: 40px;
+  width: 125px;
+  color: black;
+  margin-top: 50px;
+  border-radius: 20px;
+}
+.btn:hover {
+  background-color: #5f004d;
+}
+.btn .btn-success {
+  padding: 4em 2em;
+}
+form {
+  padding: 0 3em;
+}
+#login .title > span {
+  font-size: 1em;
+}
+button {
+  background-color: #0250c5;
+  color: white;
+  border-radius: 35px;
+}
+.email {
+  width: 260px;
+  height: 40px;
+  margin-top: 30px;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid white;
+  color: white;
+}
+.email:active,
+.email:focus {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid white;
+  color: white;
+}
+.password {
+  width: 260px;
+  height: 40px;
+  margin-top: 30px;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid white;
+  color: white;
+}
+.password:active,
+.password:focus {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid white;
+  color: white;
+}
+.form-control:focus {
+  border-color: inherit;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+form {
+  margin-top: -50px;
+}
